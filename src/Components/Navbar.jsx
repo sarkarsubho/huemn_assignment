@@ -12,7 +12,7 @@ const Navbar = () => {
           navigate(location.pathname === "/favorites" ? "/" : "/favorites")
         }
       >
-        {location.pathname === "/favorites" ? "View Recipes" : "View Fovorites"}
+        {location.pathname === "/favorites" ? "View Recipes" : "View Favourite"}
       </button>
     </div>
   );

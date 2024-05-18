@@ -11,7 +11,7 @@ const Wishlist = () => {
   return (
     <div className="wishlist-wrapper">
       <div>
-        <h1 className="wishlist-heading">Fovorite recipes</h1>
+        <h1 className="wishlist-heading">Favourite recipes</h1>
       </div>
       <div className="wishlist-items">
         {wishlist &&
